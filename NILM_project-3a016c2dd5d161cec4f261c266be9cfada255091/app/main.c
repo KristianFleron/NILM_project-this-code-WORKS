@@ -61,6 +61,7 @@ extern Int32U SDRAM_BASE_ADDR;
 extern FontType_t Terminal_9_12_6;
 extern FontType_t Terminal_18_24_12;*/
 
+#define BUF ((struct uip_eth_hdr *)&uip_buf[0])//web
 
 /*************************************************************************
 * Function Name: main
@@ -140,6 +141,11 @@ int main(void)
     int recognized=0;
     int plugOut = 0;
     Flo64 cInterval = 5000;
+    
+    //web
+    unsigned int e;
+    uip_ipaddr_t ipaddr;
+    struct timer periodic_timer, arp_timer;
     
     // int deviceCnt[3] = {0};
     //AlgoLine_t TestLine;
@@ -546,5 +552,94 @@ int main(void)
         
         /////////////////////////////////////////////////////////////////////////////////
     }
+    
+    
+  // Initialize the ethernet device driver
+  do
+  {
+    GLCD_TextSetPos(0,0);
+  }
+  while(!tapdev_init());
+  GLCD_TextSetPos(0,0);
+
+  // uIP web server
+  // Initialize the uIP TCP/IP stack.
+  uip_init();
+
+  uip_ipaddr(ipaddr, 192,168,0,100);
+  uip_sethostaddr(ipaddr);
+  uip_ipaddr(ipaddr, 192,168,0,1);
+  uip_setdraddr(ipaddr);
+  uip_ipaddr(ipaddr, 255,255,255,0);
+  uip_setnetmask(ipaddr);
+
+  // Initialize the HTTP server.
+  httpd_init();
+
+  while(1)
+  {
+    uip_len = tapdev_read(uip_buf);
+    if(uip_len > 0)
+    {
+      if(BUF->type == htons(UIP_ETHTYPE_IP))
+      {
+	      uip_arp_ipin();
+	      uip_input();
+	      /* If the above function invocation resulted in data that
+	         should be sent out on the network, the global variable
+	         uip_len is set to a value > 0. */
+	      if(uip_len > 0)
+        {
+	        uip_arp_out();
+	        tapdev_send(uip_buf,uip_len);
+	      }
+      }
+      else if(BUF->type == htons(UIP_ETHTYPE_ARP))
+      {
+        uip_arp_arpin();
+	      /* If the above function invocation resulted in data that
+	         should be sent out on the network, the global variable
+	         uip_len is set to a value > 0. */
+	      if(uip_len > 0)
+        {
+	        tapdev_send(uip_buf,uip_len);
+	      }
+      }
+    }
+    else if(timer_expired(&periodic_timer))
+    {
+      timer_reset(&periodic_timer);
+      for(e = 0; e < UIP_CONNS; e++)
+      {
+      	uip_periodic(e);
+        /* If the above function invocation resulted in data that
+           should be sent out on the network, the global variable
+           uip_len is set to a value > 0. */
+        if(uip_len > 0)
+        {
+          uip_arp_out();
+          tapdev_send(uip_buf,uip_len);
+        }
+      }
+#if UIP_UDP
+      for(e = 0; e < UIP_UDP_CONNS; e++) {
+        uip_udp_periodic(e);
+        /* If the above function invocation resulted in data that
+           should be sent out on the network, the global variable
+           uip_len is set to a value > 0. */
+        if(uip_len > 0) {
+          uip_arp_out();
+          tapdev_send();
+        }
+      }
+#endif /* UIP_UDP */
+      /* Call the ARP timer function every 10 seconds. */
+      if(timer_expired(&arp_timer))
+      {
+        timer_reset(&arp_timer);
+        uip_arp_timer();
+      }
+    }
+  }
     
 }

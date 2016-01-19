@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>3953684121</fileChecksum>
+  <configuration>
+    <name>Flash Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\app\algo.h</file>
+      <file>$PROJ_DIR$\app\algo.c</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\iar_logo.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\httpd-fs.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\main.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\httpd-cgi.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\clock-arch.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\uart.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\usb_hooks.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\usb_dev_desc.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\usb_buffer.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\usb_t9.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\usb_hw.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\lamp_on.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\uart.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\cursor_arrow.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\algo.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\usb_dev_desc.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\usb_hooks.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\button_settings.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\cd_class.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\cursor_arrow.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\button_settings.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\lamp_off.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\drv_touch_scr.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\lamp_off.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\drv_touch_scr.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\gui.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\cd_class.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\lamp_on.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\gui.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\algo.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\usb_hw.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\usb_t9.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\usb_buffer.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\sys.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\http-strings.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\httpd.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\psock.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\sdram_64M_32bit_drv.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\LPC24xx_enet.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Exe\uip_demo.out</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\timer.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\Terminal_6_8x6.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\httpd-cgi.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\http-strings.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\LPC24xx_enet.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\httpd.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\timer.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\psock.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\uip.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\uip_arp.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\clock-arch.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\iar_logo.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\Terminal_6_8x6.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\Terminal_9_12x6.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\sys.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\sdram_64M_32bit_drv.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\drv_glcd.pbi</file>
+      <file>$PROJ_DIR$\app\button_settings.c</file>
+      <file>$PROJ_DIR$\app\cd_class.c</file>
+      <file>$PROJ_DIR$\app\button_settings.h</file>
+      <file>$PROJ_DIR$\app\cd_class.h</file>
+      <file>$PROJ_DIR$\app\cdc_cmd.h</file>
+      <file>$PROJ_DIR$\app\cdc_desc.h</file>
+      <file>$PROJ_DIR$\app\gui.c</file>
+      <file>$PROJ_DIR$\app\clock-arch.c</file>
+      <file>$PROJ_DIR$\app\cursor_arrow.c</file>
+      <file>$PROJ_DIR$\app\cursor_arrow.h</file>
+      <file>$PROJ_DIR$\app\drv_touch_scr.c</file>
+      <file>$PROJ_DIR$\app\drv_touch_scr.h</file>
+      <file>$PROJ_DIR$\app\gui.h</file>
+      <file>$PROJ_DIR$\app\iar_logo.c</file>
+      <file>$PROJ_DIR$\app\includes.h</file>
+      <file>$PROJ_DIR$\app\lamp_off.c</file>
+      <file>$PROJ_DIR$\app\lamp_off.h</file>
+      <file>$PROJ_DIR$\app\lamp_on.c</file>
+      <file>$PROJ_DIR$\app\lamp_on.h</file>
+      <file>$PROJ_DIR$\app\main.c</file>
+      <file>$PROJ_DIR$\app\main.h</file>
+      <file>$PROJ_DIR$\app\uart.c</file>
+      <file>$PROJ_DIR$\app\Terminal_18_24x12.c</file>
+      <file>$PROJ_DIR$\app\Terminal_6_8x6.c</file>
+      <file>$PROJ_DIR$\app\Terminal_9_12x6.c</file>
+      <file>$PROJ_DIR$\app\uart.h</file>
+      <file>$PROJ_DIR$\app\usb_cnfg.h</file>
+      <file>$PROJ_DIR$\modules\usb_buffer.c</file>
+      <file>$PROJ_DIR$\modules\usb_buffer.h</file>
+      <file>$PROJ_DIR$\modules\usb_desc.h</file>
+      <file>$PROJ_DIR$\board\sys.c</file>
+      <file>$PROJ_DIR$\app\usb_dev_desc.c</file>
+      <file>$PROJ_DIR$\app\usb_dev_desc.h</file>
+      <file>$PROJ_DIR$\app\usb_hooks.c</file>
+      <file>$PROJ_DIR$\app\usb_hooks.h</file>
+      <file>$PROJ_DIR$\modules\usb_hw.c</file>
+      <file>$PROJ_DIR$\modules\usb_hw.h</file>
+      <file>$PROJ_DIR$\modules\usb_t9.c</file>
+      <file>$PROJ_DIR$\modules\usb_t9.h</file>
+      <file>$PROJ_DIR$\uip\psock.c</file>
+      <file>$PROJ_DIR$\modules\drv_glcd.c</file>
+      <file>$PROJ_DIR$\modules\LPC24xx_enet.c</file>
+      <file>$PROJ_DIR$\modules\sdram_64M_32bit_drv.c</file>
+      <file>$PROJ_DIR$\uip\httpd\http-strings.c</file>
+      <file>$PROJ_DIR$\uip\httpd\httpd-cgi.c</file>
+      <file>$PROJ_DIR$\uip\httpd\httpd-fs.c</file>
+      <file>$PROJ_DIR$\uip\httpd\httpd.c</file>
+      <file>$PROJ_DIR$\uip\timer.c</file>
+      <file>$PROJ_DIR$\uip\uip.c</file>
+      <file>$PROJ_DIR$\uip\uip_arp.c</file>
+      <file>$PROJ_DIR$\readme.txt</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\uip.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\uip_webserver.pbd</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\drv_glcd.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\Terminal_18_24x12.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\uip_arp.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\Terminal_9_12x6.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\Terminal_18_24x12.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\httpd-fs.o</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\app\algo.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 31</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 41</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\app\button_settings.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 22</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\app\cd_class.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 20</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 28</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\app\gui.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 30</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\app\clock-arch.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 52</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 6</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\app\cursor_arrow.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 15</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\app\drv_touch_scr.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 24</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\app\iar_logo.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 53</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 2</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\app\lamp_off.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\app\lamp_on.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 13</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\app\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 117</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 4</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\app\uart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 14</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\app\Terminal_18_24x12.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 116</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 113</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\app\Terminal_6_8x6.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 54</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 43</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\app\Terminal_9_12x6.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 55</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 115</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\modules\usb_buffer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 34</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\board\sys.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 56</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 35</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\app\usb_dev_desc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 9</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 17</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\app\usb_hooks.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 18</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\modules\usb_hw.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 32</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\modules\usb_t9.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 33</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\uip\psock.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 49</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\modules\drv_glcd.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 58</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 112</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\modules\LPC24xx_enet.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 40</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\modules\sdram_64M_32bit_drv.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 57</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 39</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\uip\httpd\http-strings.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 45</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 36</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\uip\httpd\httpd-cgi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 44</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\uip\httpd\httpd-fs.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 3</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 118</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\uip\httpd\httpd.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 37</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\uip\timer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 48</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\uip\uip.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 110</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 50</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\uip\uip_arp.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 114</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 51</file>
+        </tool>
+      </outputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>SDRAM Debug</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

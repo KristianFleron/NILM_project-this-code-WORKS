@@ -1,26 +1,30 @@
-"C:\Users\Eric\Documents\University of Waterloo\DTU\hands on MCU\NILM_project-algo+UI first merge\NILM_project-3a016c2dd5d161cec4f261c266be9cfada255091\modules\usb_hw.c"
+"C:\Users\frede\owncloud_new\Engineering\Electronics\31070 - Hands-on mikrocontroller\workspace\uip_webserver_NEW\modules\usb_hw.c"
 -std=c99
 -ferror-limit=100
 -I
-C:\Users\Eric\Documents\University of Waterloo\DTU\hands on MCU\NILM_project-algo+UI first merge\NILM_project-3a016c2dd5d161cec4f261c266be9cfada255091\app
+C:\Users\frede\owncloud_new\Engineering\Electronics\31070 - Hands-on mikrocontroller\workspace\uip_webserver_NEW\app
 -I
-C:\Users\Eric\Documents\University of Waterloo\DTU\hands on MCU\NILM_project-algo+UI first merge\NILM_project-3a016c2dd5d161cec4f261c266be9cfada255091\board
+C:\Users\frede\owncloud_new\Engineering\Electronics\31070 - Hands-on mikrocontroller\workspace\uip_webserver_NEW\board
 -I
-C:\Users\Eric\Documents\University of Waterloo\DTU\hands on MCU\NILM_project-algo+UI first merge\NILM_project-3a016c2dd5d161cec4f261c266be9cfada255091\modules
+C:\Users\frede\owncloud_new\Engineering\Electronics\31070 - Hands-on mikrocontroller\workspace\uip_webserver_NEW\modules
 -I
-C:\Users\Eric\Documents\University of Waterloo\DTU\hands on MCU\NILM_project-algo+UI first merge\NILM_project-3a016c2dd5d161cec4f261c266be9cfada255091
+C:\Users\frede\owncloud_new\Engineering\Electronics\31070 - Hands-on mikrocontroller\workspace\uip_webserver_NEW\uip
+-I
+C:\Users\frede\owncloud_new\Engineering\Electronics\31070 - Hands-on mikrocontroller\workspace\uip_webserver_NEW\uip\httpd
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\arm\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\arm\inc\c
 -I
-C:\Users\Eric\Documents\University of Waterloo\DTU\hands on MCU\NILM_project-algo+UI first merge\NILM_project-3a016c2dd5d161cec4f261c266be9cfada255091\app
+C:\Users\frede\owncloud_new\Engineering\Electronics\31070 - Hands-on mikrocontroller\workspace\uip_webserver_NEW\app
 -I
-C:\Users\Eric\Documents\University of Waterloo\DTU\hands on MCU\NILM_project-algo+UI first merge\NILM_project-3a016c2dd5d161cec4f261c266be9cfada255091\board
+C:\Users\frede\owncloud_new\Engineering\Electronics\31070 - Hands-on mikrocontroller\workspace\uip_webserver_NEW\board
 -I
-C:\Users\Eric\Documents\University of Waterloo\DTU\hands on MCU\NILM_project-algo+UI first merge\NILM_project-3a016c2dd5d161cec4f261c266be9cfada255091\modules
+C:\Users\frede\owncloud_new\Engineering\Electronics\31070 - Hands-on mikrocontroller\workspace\uip_webserver_NEW\modules
 -I
-C:\Users\Eric\Documents\University of Waterloo\DTU\hands on MCU\NILM_project-algo+UI first merge\NILM_project-3a016c2dd5d161cec4f261c266be9cfada255091
+C:\Users\frede\owncloud_new\Engineering\Electronics\31070 - Hands-on mikrocontroller\workspace\uip_webserver_NEW\uip
+-I
+C:\Users\frede\owncloud_new\Engineering\Electronics\31070 - Hands-on mikrocontroller\workspace\uip_webserver_NEW\uip\httpd
 -DIAR_LPC_2478_STK=1
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
